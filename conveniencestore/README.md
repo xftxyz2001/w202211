@@ -17,7 +17,7 @@
 ## 提示：可用以下三个类解决该问题
 
 ### 1．货物类（Goods）：一个商品，包含了名称，价格信息
-Goods
+[Goods](./src/main/java/com/xftxyz/conveniencestore/Goods.java)
 - `-String name`
 - `-float  price`
 - `+Goods(String _name,float _price)`
@@ -27,7 +27,7 @@ Goods
 - `+float getPrice()`
 
 ### 2．购物篮类（Basket）：一个购物篮，包含了已经选择的东西
-Basket
+[Basket](./src/main/java/com/xftxyz/conveniencestore/Basket.java)
 - `-ArrayList<Goods> goodsList`
 - `+void addGoods(Goods goods)`
 - `+ArrayList<Goods> getAllGoods()`
@@ -36,7 +36,7 @@ Basket
 - `+float getTotalPrice()`
 
 ### 3．Store：小芳便利店 主程序
-Store
+[Store](src/main/java/com/xftxyz/conveniencestore/Store.java)
 - `-static final Goods[] GOODS`         // 所有商品
 - `-static Basket basket`               // 存放选中商品的购物篮
 - `-static final String MESSAGE_HEADER` // 菜单顶部
@@ -51,3 +51,6 @@ Store
 要求：
 - 使用Junit对改程序的各单元进行测试。
 - 提交源程序和测试程序。
+
+
+![1667456210219](image/README/1667456210219.png)
