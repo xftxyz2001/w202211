@@ -1,1 +1,2 @@
 - [豆丁-图书馆管理系统用例图、活动图、类图、时序图](https://www.docin.com/p-1490478258.html)
+- [CSDN-UML--状态图](https://blog.csdn.net/neusoft2016/article/details/116902865)
